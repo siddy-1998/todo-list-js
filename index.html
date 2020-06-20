@@ -1,0 +1,62 @@
+ <html>
+
+ <head>
+   <title>Todo List</title>
+   <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
+     integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous" />
+   <link rel="stylesheet" href="index.css">
+ </head>
+
+ <body>
+   <div id="container">
+     <input type="text" placeholder="Type your todo list" id="input-todo" maxlength="32">
+     <div id="input-i">
+       <div> <i class="fas fa-tasks todo"></i></div>
+       <div style=" cursor: pointer; " id="add-btn"> <i class="fas fa-plus-circle todo second"></i></div>
+     </div>
+
+     <div id="button-beneath-container">
+       <div class="complt-all-task"><i class="fas fa-check-double"></i> Complete all tasks</div>
+       <div class="clear-complt">Clear completed</div>
+     </div>
+     <hr>
+
+     <div id="task-list">
+
+       <!-- <div class="task">
+          <input type="checkbox" id="check" class="custom-checkbox">
+          <label class="todo-text" for="check">Learn how to use Vue.js</label>
+           <div class="todo-btn"><i class="far fa-window-close todo-btn-i"></i></div>
+         </div> -->
+
+
+     </div>
+
+     <hr>
+
+     <div id="lower-div">
+       <div id="first">Total tasks: <span id="tasks-counter">0</span></div>
+
+       <div id="second">
+         <div id="all" class="black-hover">all</div>
+         <div id="incomplete" class="black-hover">incomplete</div>
+         <div id="completed" class="black-hover">completed</div>
+       </div>
+
+     </div>
+
+   </div>
+
+   <div id="toast"></div>
+
+   <script src="index.js"></script>
+
+
+ </body>
+
+
+
+
+
+
+ </html>
