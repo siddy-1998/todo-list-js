@@ -1,5 +1,6 @@
 # todo-list-js
-A simple todolist using vanilla js
+A simple todolist using vanilla js 
+https://siddy-1998.github.io/todo-list-js/
 
 ### General steps to follow when creating a project
 
